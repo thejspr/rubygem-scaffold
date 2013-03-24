@@ -1,8 +1,10 @@
 # Gem Intro
 
-TODO: Write gem introduction and rationale.
+This is a basic gem scaffold for making building new gems easier.
 
 ## Setup
+
+Rename name `chromarks` to the new gem's name.
 
     mv lib/chromarks lib/gem_name
     find . -type f -print0 | xargs -0 sed -i 's/Chromarks/GemName/g'
@@ -12,7 +14,7 @@ TODO: Write gem introduction and rationale.
 
 Add this line to your application's Gemfile:
 
-    gem 'bkmrk'
+    gem 'chromarks'
 
 And then execute:
 
@@ -20,7 +22,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install bkmrk
+    $ gem install chromarks
 
 ## Usage
 
